@@ -9,12 +9,12 @@
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Ldj-git"><img src="https://avatars.githubusercontent.com/u/68588092?v=4" width="100px;" alt=""/><br /><sub><b>Ldj-git</b></td>
-    <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b></b></td>
-    <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b></b></td>
-    <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b></b></td>
-    <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b></b></td>
-    <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b></b></td>
-    <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b></b></td>
+    <td align="center"><a href="https://github.com/2taesung"><img src="https://avatars.githubusercontent.com/u/66891085?v=4" width="100px;" alt=""/><br /><sub><b>Taesung Lee</b></td>
+    <td align="center"><a href="https://github.com/elizabethgim"><img src="https://avatars.githubusercontent.com/u/65852282?v=4" width="100px;" alt=""/><br /><sub><b>Yujin</b></td>
+    <td align="center"><a href="https://github.com/eunna-lim"><img src="https://avatars.githubusercontent.com/u/63828084?v=4" width="100px;" alt=""/><br /><sub><b>eunna-lim</b></td>
+    <td align="center"><a href="https://github.com/hyejineom-dev"><img src="https://avatars.githubusercontent.com/u/40953167?v=4" width="100px;" alt=""/><br /><sub><b>Hye-jin Eom</b></td>
+    <td align="center"><a href="https://github.com/kminzy"><img src="https://avatars.githubusercontent.com/u/55342113?v=4" width="100px;" alt=""/><br /><sub><b>kminzy</b></td>
+    <td align="center"><a href="https://github.com/nohnoori"><img src="https://avatars.githubusercontent.com/u/69712183?v=4" width="100px;" alt=""/><br /><sub><b>nohnoori</b></td>
     </tr>
 </table>
 
@@ -34,8 +34,9 @@
 | ------------------- | ------------------ | ------------------------ |
 | 4월  4일 ~ 4월  9일 | 스터디 방식 논의, 깃허브 레포지토리 초대 | 4월 4일 |
 | 4월 11일 ~ 4월 16일 | DFS/BFS | 4월 11일 |
-| 5월  9일 ~ 5월 14일 | 이분탐색 | 5월 9일 |
-| 5월 16일 ~ 5월 21일 | 그래프 | 5월 16일 |
+| 4월 18일 ~ 4월 23일 | 이분탐색 | 4월 18일 |
+| 5월  9일 ~ 5월 14일 | 그래프 | 5월 9일 |
+| 5월 16일 ~ 5월 21일 | 백준이나 프로그래머스 문제 3~4개 | 5월 16일 |
 | 5월 23일 ~ 5월 28일 | 백준이나 프로그래머스 문제 3~4개 | 5월 23일 |
 
 ### 2️⃣ commit 규칙
