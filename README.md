@@ -79,9 +79,15 @@
 
 #### 이번 주 문제: 깊이/너비 우선 탐색(DFS/BFS)
 
-- 43162. 네트워크
+- [43165번 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
+
+  - 다들 DFS나 BFS를 사용해 비슷하게 풀었습니다.
+  - 조금 다른 방법으로 [비트마스킹으로도 할 수 있습니다.](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EC%9D%B4%EB%8F%99%EC%A4%80/2%EC%A3%BC%EC%B0%A8%20DFS%2CBFS/%5BPGS%5D%2043165.cpp#L46-L67)
+  - [idx를 따로 저장하지 않고 numbers자체를 슬라이싱해서 하는 방법](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EC%97%84%ED%98%9C%EC%A7%84/DFS%2CBFS/targetNumber_43165.py#L17-L28)
+
+- [43162번 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
   - 모든 노드에 대해 DFS/BFS를 돌려 방문하고 네트워크로 연결된 것들 카운팅, 다들 비슷하게 풀었으요..
-- 43163. 단어 변환
+- [43163번 단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)
 
   - words의 단어 하나가 노드, 변환 가능 단어라면 엣지로 연결
   - 만약에 그래프로 나타낸다면 요런식
@@ -91,7 +97,7 @@
   - 시작 단어에서 DFS/BFS 돌려서 타겟 도착하면 몇단계 거쳐 갔나 세서 반환
   - **단어간 변환 가능한지 확인하는 부분을 만드는게 핵심!**
 
-- 43164. 여행경로
+- [43164번 여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)
 
   - 여러 경로가 나올수 있는데 그중 알파벳순으로 가장 먼저오는걸 반환해야함!
 
@@ -112,12 +118,6 @@
       > - **딕셔너리를 알파벳순으로 정렬하고**
       > - 마찬가지로 DFS를 돌리는데 딕셔너리에서 pop을 해서 방문여부를 봐주고
       > - **answer배열의 순서를 마지막에 뒤집어준다.** ~~약간 후위순회 느낌??~~
-
-- 43165. 타겟 넘버
-
-  - 다들 DFS나 BFS를 사용해 비슷하게 풀었습니다.
-  - 조금 다른 방법으로 [비트마스킹으로도 할 수 있습니다.](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EC%9D%B4%EB%8F%99%EC%A4%80/2%EC%A3%BC%EC%B0%A8%20DFS%2CBFS/%5BPGS%5D%2043165.cpp#L46-L67)
-  - [idx를 따로 저장하지 않고 numbers자체를 슬라이싱해서 하는 방법](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EC%97%84%ED%98%9C%EC%A7%84/DFS%2CBFS/targetNumber_43165.py#L17-L28)
 
 - 파이썬 팁
 
