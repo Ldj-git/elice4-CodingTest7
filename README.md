@@ -66,3 +66,75 @@
 #### 미팅 내용
 - 스터디 방식 논의
 - 깃허브 레포지토리 초대
+
+<br/>
+
+### 🔸 4월 11일
+
+#### 미팅 참여자
+
+: 이동준 엄혜진 김유진 권민지 노누리 임은나 이태성
+
+#### 미팅 내용
+
+#### 이번 주 문제: 깊이/너비 우선 탐색(DFS/BFS)
+
+- 43162. 네트워크
+  - 모든 노드에 대해 DFS/BFS를 돌려 방문하고 네트워크로 연결된 것들 카운팅, 다들 비슷하게 풀었으요..
+- 43163. 단어 변환
+
+  - words의 단어 하나가 노드, 변환 가능 단어라면 엣지로 연결
+  - 만약에 그래프로 나타낸다면 요런식
+
+  <img src="https://media.discordapp.net/attachments/934288741047107628/963060643991261264/image.png" width="50%;" alt=""/>
+
+  - 시작 단어에서 DFS/BFS 돌려서 타겟 도착하면 몇단계 거쳐 갔나 세서 반환
+  - **단어간 변환 가능한지 확인하는 부분을 만드는게 핵심!**
+
+- 43164. 여행경로
+
+  - 여러 경로가 나올수 있는데 그중 알파벳순으로 가장 먼저오는걸 반환해야함!
+
+  <img src="https://i.ibb.co/ygY0H0j/Kakao-Talk-20220412-000743760.jpg" width="50%;" alt="Kakao-Talk-20220412-000743760" border="0">
+
+  - 여러 방법 중 [하나](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EC%9D%B4%EB%8F%99%EC%A4%80/2%EC%A3%BC%EC%B0%A8%20DFS%2CBFS/%5BPGS%5D%2043164.cpp#L11-L40) DFS로 모든 가능한 경로들은 저장하고 알파벳순으로 정렬해서 가장 앞에 오는 경로를 반환
+
+  - [두번째 방법](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EB%85%B8%EB%88%84%EB%A6%AC/2%EC%A3%BC%EC%B0%A8%20BFS%2CDFS/travel_routes.py#L1-L22) (코드는 dfs를 반복문으로 구현했네요) [비슷한 방법](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EA%B9%80%EC%9C%A0%EC%A7%84/2%EC%A3%BC%EC%B0%A8%20DFS%2C%20BFS/%5BPGS%5D%20%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C.py#L1-L28)
+
+    - 누리님 설명
+
+      > - dictionary를 이용하여 연결되는 노드를 표시해주었다.
+      > - 다음 경로가 있는 공항은 마지막 경로에 도달할때까지 (다음 경로가 없는 공항에 도달할때까지) dictionary에서 값을 pop하여 stack에 추가해준다.
+      > - 다음 경로가 없는 경우에는 answer 리스트에 값을 넣어주고 다시 돌아오면서 하나씩 answer에 값을 넣어준다.
+
+    - 제가 이해한 내용..
+      > - 티켓의 정보들을 딕셔너리로 바꿔주고
+      > - **딕셔너리를 알파벳순으로 정렬하고**
+      > - 마찬가지로 DFS를 돌리는데 딕셔너리에서 pop을 해서 방문여부를 봐주고
+      > - **answer배열의 순서를 마지막에 뒤집어준다.** ~~약간 후위순회 느낌??~~
+
+- 43165. 타겟 넘버
+
+  - 다들 DFS나 BFS를 사용해 비슷하게 풀었습니다.
+  - 조금 다른 방법으로 [비트마스킹으로도 할 수 있습니다.](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EC%9D%B4%EB%8F%99%EC%A4%80/2%EC%A3%BC%EC%B0%A8%20DFS%2CBFS/%5BPGS%5D%2043165.cpp#L46-L67)
+  - [idx를 따로 저장하지 않고 numbers자체를 슬라이싱해서 하는 방법](https://github.com/Ldj-git/elice4-CodingTest7/blob/57e5d79d6e439c6e534666a9150027f65d2f9de5/%EC%97%84%ED%98%9C%EC%A7%84/DFS%2CBFS/targetNumber_43165.py#L17-L28)
+
+- 파이썬 팁
+
+  - 파이썬 전역변수
+
+    - 함수 안에 함수에서는 nonlocal
+    - 아니면 global
+    - [참고](https://juhi.tistory.com/6)
+
+  - 파이썬에서 list는 뮤터블이다...(수정 가능)
+
+    - [참고](https://wikidocs.net/32277)
+
+  - 파이썬 zip
+    - [공식문서](https://docs.python.org/3/library/functions.html#zip)
+    - [한글](https://wikidocs.net/32#zip)
+
+#### 다음 주 문제: 이분탐색
+
+###### 어렵겠지만 할수있을껍니다 화이팅...
